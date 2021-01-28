@@ -12,7 +12,7 @@ For All Command In Termux
 
 2- pkg install python
 
-3- git clone 
+3- git clone https://github.com/DEADPOOLEVIL/MDE-Tool.git
 
 4- cd MDE-Tool
 
