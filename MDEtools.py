@@ -35,7 +35,7 @@ loop = True
 while  loop:
     menu()
     
-    mdechoseone = int(input("MDE:---#> ").strip())
+    mdechoseone = int(input("MDE:---#> ")).strip()
 
     if mdechoseone == 1 or mdechoseone == "01" :
         print("Ok!")
