@@ -149,7 +149,7 @@ while  loop:
         if yesornotwo == 'y' or yesornotwo == 'yes' :
             os.system('clear')
             os.system('pkg install git')
-            os.system('git clone')
+            os.system('git clone https://github.com/DEADPOOLEVIL/MDE-Tool.git')
 
         elif yesornotwo == 'n' or yesornotwo == 'no' :
             print("Ok Try Again")
