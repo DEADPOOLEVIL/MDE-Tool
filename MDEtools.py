@@ -20,7 +20,6 @@ def menu():
         sys.stdout.write("\r" + animation[i % len(animation)])
         sys.stdout.flush()
     print("Loading Complete!")
-    
     time.sleep(2)
     os.system('clear')
 
@@ -34,15 +33,13 @@ def menu():
 loop = True
 while  loop:
     menu()
-    
-    mdechoseone = int(input("MDE:---#> ")).strip()
+
+    mdechoseone = int(input("MDE:---#> ").strip())
 
     if mdechoseone == 1 or mdechoseone == "01" :
         print("Ok!")
         print("Loading..")
-        
         animation = ("|/-\\")
-        
         for i in range(100):
             time.sleep(0.1)
             sys.stdout.write("\r" + animation[i % len(animation)])
@@ -118,10 +115,8 @@ while  loop:
         print("#" * 80)
 
         mdechoseonethree = int(input("MDE:---#> ").strip())
-        
-        if mdechoseonetwo == "99":
+        if mdechoseonethree == "99":
             menu()
-            
         else:
             menu()
 
@@ -135,13 +130,10 @@ while  loop:
         print("#" * 80)
 
         mdechoseonetwo = int(input("MDE:---#> ").strip())
-        
         if mdechoseonetwo == "99":
             menu()
-            
         else:
             menu()
-            
     elif mdechoseone == 4 or mdechoseone == "04" :
 
         yesornotwo = input("Do You Wanna Contino Y/N").lower().strip()
@@ -149,7 +141,7 @@ while  loop:
         if yesornotwo == 'y' or yesornotwo == 'yes' :
             os.system('clear')
             os.system('pkg install git')
-            os.system('git clone https://github.com/DEADPOOLEVIL/MDE-Tool.git')
+            os.system('git clone')
 
         elif yesornotwo == 'n' or yesornotwo == 'no' :
             print("Ok Try Again")
