@@ -16,6 +16,6 @@ For All Command In Termux
 
 4- cd MDE-Tool
 
-5- python MDEtool.py
+5- python MDEtools.py
 
 ############################
